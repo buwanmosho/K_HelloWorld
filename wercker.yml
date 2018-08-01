@@ -13,6 +13,10 @@ box: python:2.7
   # - postgres
   # https://devcenter.wercker.com/administration/services/examples/postgresql/
 
+- internal/docker-build:
+    dockerfile: Dockerfile
+    image-name: my-new-image
+
   # - mongo
 # https://devcenter.wercker.com/administration/services/examples/mongodb/
 
@@ -29,6 +33,7 @@ build:
   - virtualenv:
       name: setup virtual environment
       install_wheel: false # Enable wheel to speed up builds (experimental)
+
 
   # # Use this virtualenv step for python 3.2
   # - virtualenv
