@@ -1,0 +1,146 @@
+.video-page {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.video-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.video-player {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-bottom: 1rem;
+  background: #000;
+}
+
+.video-details {
+  padding: 1rem 0;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.video-stats {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #606060;
+  margin: 1rem 0;
+}
+
+.video-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.video-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 18px;
+  background: #f2f2f2;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.channel-info img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.subscribe-btn {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.comments-section {
+  margin-top: 2rem;
+}
+
+.comment-form {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comment-form button {
+  padding: 0.5rem 1rem;
+  background: #065fd4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comments-list {
+  margin-top: 1rem;
+}
+
+.comment {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.comment-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-header {
+  margin-bottom: 0.5rem;
+}
+
+.comment-user {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.comment-timestamp {
+  color: #606060;
+}
+
+.comment-actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.comment-actions button {
+  background: none;
+  border: none;
+  color: #606060;
+  cursor: pointer;
+} 
